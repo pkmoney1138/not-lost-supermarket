@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+}
+
+.title-bar {
+	border: 1px blue solid;
+	background-color: white;
+	height: 200px;
+}
+
+.title {
+	border: 1px pink solid;
+	width: 1024px;
+	margin: 40px auto;
+	text-align: center;
+	font-size: 50px;	
+}
+
+.input {
+	border: 1px orange solid;
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.input div {
+	border: 1px green solid;
+	display: inline-block;
+}
