@@ -1,29 +1,93 @@
 body {
 	background-color: black;
 }
-
+/* header section */
 .title-bar {
+	width: 1500px;
 	border: 1px blue solid;
-	background-color: white;
+	background: linear-gradient(lightgray, gray);
 	height: 200px;
+	margin: 0 auto;
 }
-
 .title {
 	border: 1px pink solid;
 	width: 1024px;
 	margin: 40px auto;
 	text-align: center;
-	font-size: 50px;	
+	color: green;
+	font-size: 50px;
+	font-family: Arial Black;
+	text-shadow: 2px 2px 8px black;	
 }
-
-.input {
+.title span {
+	color: pink;
+}
+.input-area {
 	border: 1px orange solid;
 	width: 1024px;
 	margin: 0 auto;
 	text-align: center;
 }
-
-.input div {
+.input-area div {
 	border: 1px green solid;
 	display: inline-block;
 }
+.input-box {
+	font-size: 20px;
+}
+/* button stylings */
+.button-one,
+.button-two {
+	text-shadow: 1px 0px 130px white;
+	font-size: 20px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 8px black;
+}
+.button-one:hover {
+	cursor: pointer;
+}
+.button-two:hover {
+	cursor: pointer;
+}
+.button-one {
+	background-color: pink;
+}
+.button-two {
+	background-color: green;
+}
+.got-it {
+	float: left;
+}
+.removes-item {
+	float: right;
+}
+/* main section */
+.main {
+	width: 1500px;
+	height: 800px;
+	background-image: url(../images/image1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+.shopping-list {
+	border: 1px yellow solid;
+	width: 1024px;
+	margin: 0 auto;
+	opacity: 0.9;
+}
+.shopping-list li {
+	margin: 10px;
+	background-color: grey;
+	border: 1px blue solid;	
+	font-size: 30px;
+}
+.items {
+	border: 1px white solid;
+	margin-left: 350px;
+}
+
+
+
+
+
