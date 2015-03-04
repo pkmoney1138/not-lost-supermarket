@@ -33,7 +33,10 @@ body {
 	display: inline-block;
 }
 .input-box {
+	color: white;
+	font-family: arial;
 	font-size: 20px;
+	text-shadow: 0px 7px 20px black;
 }
 /* button stylings */
 .button-one,
@@ -43,9 +46,7 @@ body {
 	border-radius: 20px;
 	box-shadow: 4px 4px 8px black;
 }
-.button-one:hover {
-	cursor: pointer;
-}
+.button-one:hover,
 .button-two:hover {
 	cursor: pointer;
 }
@@ -80,11 +81,15 @@ body {
 	margin: 10px;
 	background-color: grey;
 	border: 1px blue solid;	
+	font-family: arial;
 	font-size: 30px;
 }
 .items {
 	border: 1px white solid;
 	margin-left: 350px;
+}
+.shopping-list li:last-child {
+	text-decoration: line-through;
 }
 
 
