@@ -14,19 +14,19 @@
 			<h1><span>(Not)</span> Lost in the Supermarket</h1>
 		</div>
 		<div class="input-area">
-			<div class="input-box">
+			<div>
 				<form>
 					Enter grocery items here and hit "Enter" or click "Add":
-					<input type="text" name="grocery">
+					<input type="text" id="item-input">
 				</form>
 			</div>
 			<div>	
-				<button class="button-one" >
+				<button id= "add-button" class="button-one">
 				Add
 				</button>
 			</div>
 			<div>	
-				<button class="button-two">
+				<button id="reset-button" class="button-two">
 					Reset List
 				</button>
 			</div>	
@@ -34,7 +34,7 @@
 	</header>	
 	<section class="main">
 			<ul class="shopping-list">
-				<li>
+				<li class="list">
 					<button class="got-it button-one">Got it!</button>
 					<span class="items">Orange Juice</span>
 					<button class="removes-item button-two">I don't want this!</button>
