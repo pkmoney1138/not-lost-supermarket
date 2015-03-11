@@ -82,6 +82,10 @@ button {
 
 .strike-through {
 	text-decoration: line-through;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d05cc3673f0ae49c644403a46a4567ed463f8d5f
 }
 /* media queries */
 @media	only screen and (max-width: 900px) {
@@ -122,6 +126,11 @@ button {
 		margin: -4px;
 	}
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 794c3e10f7824f096523ff2871b34926b8314cd3
+>>>>>>> d05cc3673f0ae49c644403a46a4567ed463f8d5f
 }
 
 
