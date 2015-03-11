@@ -7,15 +7,7 @@ $(document).ready(function() {
 		if($('#input-box').val().length==0) {
 			alert('Y\'all Need To Write Something, Hear?')
 		} else {
-<<<<<<< HEAD
 		$('.whole-shopping-list').append('<li class="list-items"><button class="got-it">Got it!</button><button class="remove-item">I don\'t want this!</button>' + $('#input-box').val() + '</li>');
-=======
-<<<<<<< HEAD
-		$('.whole-shopping-list').append('<li class="list-items"><button class="got-it">Got it!</button><button class="remove-item">I don\'t want this!</button>' + $('#input-box').val() + '</li>');
-=======
-		$('.whole-shopping-list').append('<li class="list-items"><button class="got-it">Got It!</button><button class="remove-item">I don\'t want this!</button>' + $('#input-box').val() + '</li>');
->>>>>>> 794c3e10f7824f096523ff2871b34926b8314cd3
->>>>>>> d05cc3673f0ae49c644403a46a4567ed463f8d5f
 		}
 		$('#input-box').val("");	
 	});
@@ -27,7 +19,7 @@ $(document).ready(function() {
 		}
 	});
 	//cross out items in cart and re-click to undo
-	//remove item....removes items!
+	//clicking remove item....removes items!
 	$('.whole-shopping-list').on('click','.got-it', function() {
 		$(this).closest('li').toggleClass('strike-through');
 	})
@@ -39,7 +31,4 @@ $(document).ready(function() {
 		$('.list-items').fadeOut();
 		$('#input-box').val("");
 	});
-	
-
-
 });//final close
