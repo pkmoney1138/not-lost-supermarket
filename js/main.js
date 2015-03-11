@@ -7,7 +7,11 @@ $(document).ready(function() {
 		if($('#input-box').val().length==0) {
 			alert('Y\'all Need To Write Something, Hear?')
 		} else {
+<<<<<<< HEAD
 		$('.whole-shopping-list').append('<li class="list-items"><button class="got-it">Got it!</button><button class="remove-item">I don\'t want this!</button>' + $('#input-box').val() + '</li>');
+=======
+		$('.whole-shopping-list').append('<li class="list-items"><button class="got-it">Got It!</button><button class="remove-item">I don\'t want this!</button>' + $('#input-box').val() + '</li>');
+>>>>>>> 794c3e10f7824f096523ff2871b34926b8314cd3
 		}
 		$('#input-box').val("");	
 	});
