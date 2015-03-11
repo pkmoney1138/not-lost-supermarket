@@ -3,16 +3,16 @@ body {
 }
 /* header section */
 .title-bar {
-	width: 1500px;
-	border: 1px blue solid;
-	background: linear-gradient(lightgray, gray);
+	border: 1px solid rgb(131, 131, 131);
+	width: 1598px;
+	background: linear-gradient(gray, darkgray);
 	height: 200px;
 	margin: 0 auto;
 }
 .title {
-	border: 1px pink solid;
 	width: 1024px;
-	margin: 40px auto;
+	margin: 0 auto;
+	padding-top: 55px;
 	text-align: center;
 	color: green;
 	font-size: 50px;
@@ -22,37 +22,26 @@ body {
 .title span {
 	color: pink;
 }
+/* input stylings */
 .input-area {
-	border: 1px orange solid;
 	width: 1024px;
-	margin: 0 auto;
+	margin: 22px auto;
 	text-align: center;
-}
-.input-area div {
-	border: 1px green solid;
-	display: inline-block;
-}
-form {
+	font-size: 20px;
 	color: white;
 	font-family: arial;
-	font-size: 20px;
 	text-shadow: 0px 7px 20px black;
 }
+#input-box {
+	font-size: 30px;
+	background-color: darkgray;
+}
 /* button stylings */
-
-#add-button, 
-#reset-button,
-.got-it,
-.removes-item {
+button {
 	text-shadow: 1px 0px 130px white;
 	font-size: 20px;
 	border-radius: 20px;
 	box-shadow: 4px 4px 8px black;
-}
-#add-button:hover, 
-#reset-button:hover,
-.got-it:hover,
-.removes-item:hover {
 	cursor: pointer;
 }
 #add-button,
@@ -60,40 +49,79 @@ form {
 	background-color: pink;
 }
 #reset-button,
-.removes-item {
+.remove-item {
 	background-color: green;
 }
 .got-it {
 	float: left;
 }
-.removes-item {
+.remove-item {
 	float: right;
 }
 /* main section */
 .main {
-	width: 1500px;
-	height: 800px;
-	background-image: url(../images/image1.jpg);
+	width: 1598px;
+	height: 1057px;
+	background-image: url(../images/lits.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0 auto;
+	border: 1px solid rgb(131, 131, 131);
 }
-.shopping-list {
-	border: 1px yellow solid;
+.list-items {
 	width: 1024px;
-	margin: 0 auto;
 	opacity: 0.9;
-}
-.shopping-list li {
-	margin: 10px;
+	margin: 10px auto;
 	background-color: grey;
-	border: 1px blue solid;	
 	font-family: arial;
 	font-size: 30px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid black;
 }
-.items {
-	border: 1px white solid;
-	margin-left: 350px;
+
+.strike-through {
+	text-decoration: line-through;
+}
+/* media queries */
+@media	only screen and (max-width: 900px) {
+	.title-bar {
+		width: 800px;
+		height: 100px;
+	}
+	.title {
+		width: 800px;
+		height: 100px;
+		padding-top: 20px;
+		font-size: 35px;
+	}
+	.input-area {
+		width: 800px;
+		font-size: 15px;
+		margin: -59px auto;
+	}
+	#input-box {
+		font-size: 15px;
+	}
+	button {
+		font-size: 15px;
+	}
+	.main {
+		width: 800px;
+		height: 550px;
+		background-size:;
+	}
+	.list-items {
+		width: 700px;
+		font-size: 15px;
+		padding: 10px;
+		margin: 5px auto;
+	}	
+	.got-it,
+	.remove-item {
+		margin: -4px;
+	}
+
 }
 
 
